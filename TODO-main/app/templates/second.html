@@ -1,0 +1,35 @@
+
+<html>
+<head>
+  <title>
+  </title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  <script src="{% static 'js/java.js' %}"></script>
+</head>
+<body bgcolor="#add8e6">
+<br>
+<br><br><br><br><br><br>
+
+
+<div id="pomodoro-app">
+  <div id="container">
+    <div id="timer">
+      <div id="time">
+        <span id="minutes">25</span>
+        <span id="colon">:</span>
+        <span id="seconds">00</span>
+      </div>
+      <div id="filler"></div>
+    </div>
+
+    <div id="buttons">
+      <button id="work">Work</button>
+      <button id="shortBreak">Short Break</button>
+      <button id="longBreak">Long Break</button>
+      <button id="stop">Stop</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
